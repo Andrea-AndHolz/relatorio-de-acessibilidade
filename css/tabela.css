@@ -1,0 +1,88 @@
+.subtitulo {
+  margin: 0 0 20px;
+  font-size: 1.1rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.table-block {
+  margin-top: 24px;
+  background: var(--section-bg);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 18px 14px 10px;
+}
+
+.table-block h3 {
+  margin: 0 0 14px;
+  font-size: 1.35rem;
+  color: var(--head);
+}
+
+.recommendation-intro,
+.recommendation-text {
+  color: var(--text);
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.recommendation-intro {
+  margin: 0 0 22px;
+}
+
+.recommendation-text {
+  margin: 0 0 16px;
+}
+
+.table-block table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.criteria-table th:nth-child(1),
+.criteria-table td:nth-child(1) { width: 34%; }
+.criteria-table th:nth-child(2),
+.criteria-table td:nth-child(2) { width: 12%; }
+.criteria-table th:nth-child(3),
+.criteria-table td:nth-child(3) { width: 54%; }
+
+.table-block colgroup col:nth-child(1) { width: 10%; }
+.table-block colgroup col:nth-child(2) { width: 20%; }
+.table-block colgroup col:nth-child(3) { width: 12%; }
+.table-block colgroup col:nth-child(4) { width: 58%; }
+
+.table-block th,
+.table-block td {
+  border: 1px solid var(--line);
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.table-block thead th {
+  background: var(--head);
+  color: var(--head-text);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.table-block tbody tr:nth-child(even) {
+  background: var(--row-alt);
+}
+
+.table-block td {
+  font-size: 0.96rem;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .table-block th,
+  .table-block td {
+    padding: 10px 8px;
+    font-size: 0.82rem;
+  }
+}

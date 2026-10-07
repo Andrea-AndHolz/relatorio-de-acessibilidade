@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Relatório de Acessibilidade EBAC</title>
+        <meta name="description" content="Relatório de acessibilidade da loja EBAC.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/report-header.js" defer></script>
+    </head>
+    <body>
+        <main class="container">
+            <report-header current-page="overview"></report-header>
+
+            <section class="visual-summary" aria-label="Nota e resumo da avaliação de acessibilidade">
+                <figure class="summary-card score-card">
+                    <figcaption>Nota de acessibilidade</figcaption>
+                    <img src="imagens/NotaAcessibilidade.png" alt="Nota de acessibilidade: 75,67 por cento, na faixa de 70 a 85 por cento">
+                </figure>
+                <figure class="summary-card category-card">
+                    <figcaption>Resumo de acessibilidade por seção</figcaption>
+                    <img src="imagens/Resumo%20acessibilidade%20por%20se%C3%A7%C3%A3o.png" alt="Resumo por seção: Marcação, 131 erros e 488 avisos; Comportamento, 1 erro e 28 avisos; Conteúdo e Informação, 189 erros e 113 avisos; Apresentação e Design, Multimídia sem erros ou avisos; Formulários, 4 erros e 8 avisos; total de 325 erros e 637 avisos">
+                </figure>
+            </section>
+            <section class="overview-content" aria-labelledby="overview-title">
+                <h2 id="overview-title">Avaliação de Acessibilidade Digital — Site EBAC</h2>
+                <p class="subtitulo">Objetivo, escopo e metodologia do relatório</p>
+
+                <div class="overview-card">
+                    <h3>Objetivo do relatório</h3>
+                    <p>O relatório de acessibilidade web tem como objetivo diagnosticar barreiras digitais, avaliar o nível de conformidade de um site e apresentar um plano de ação para correções. Ele deve indicar as diretrizes adotadas e fornecer uma visão geral do portal por meio de indicadores ou pontuações, detalhando a quantidade total de problemas encontrados e dividindo-os por níveis de criticidade, como grave, moderado ou leve.</p>
+                    <p>Para cada falha identificada — como contraste de cores insuficiente, links sem foco ou falta de texto alternativo —, o documento especifica o problema, aponta sua localização exata na página e oferece orientações técnicas para que designers e desenvolvedores realizem os ajustes. Por fim, estabelece uma ordem de prioridade para as correções, separando as urgências do que pode ser resolvido a médio ou curto prazo.</p>
+                </div>
+
+                <div class="overview-card">
+                    <h3>Escopo e metodologia</h3>
+                    <p>Este relatório apresenta os resultados da avaliação de acessibilidade do site da EBAC. A auditoria foi feita por meio de testes automatizados no código-fonte (X)HTML, utilizando a ferramenta ASES (Avaliador e Simulador de Acessibilidade em Sites) dedicado à avaliação da acessibilidade na web. O escopo da análise compreendeu seções essenciais da plataforma, como a página inicial, as páginas de produtos, o carrinho de compras e o fluxo de checkout.</p>
+                    <p>Os critérios de validação foram fundamentados no eMAG (Modelo de Acessibilidade em Governo Eletrônico) e nas recomendações internacionais do W3C (World Wide Web Consortium). O objetivo é orientar desenvolvedores na aplicação de boas práticas em HTML, CSS e JavaScript para criar experiências digitais acessíveis e compatíveis com dispositivos e navegadores atuais e futuros.</p>
+                </div>
+
+                <div class="overview-card">
+                    <h3>Classificação dos apontamentos</h3>
+                    <p>Os apontamentos que impactam a experiência de usuários com deficiência foram divididos em duas categorias:</p>
+                    <ul class="finding-types">
+                        <li><strong>Erros:</strong> problemas graves que violam as diretrizes de acessibilidade e exigem correção prioritária.</li>
+                        <li><strong>Avisos:</strong> pontos suspeitos que demandam atenção ou revisão manual.</li>
+                    </ul>
+                </div>
+
+                <div class="overview-card">
+                    <h3>Ferramentas de validação</h3>
+                    <p>O W3C,  oferece ferramentas de validação técnica para verificar a sintaxe e a conformidade do código HTML, XHTML, XML e CSS com os padrões da organização. Identificando 81 erros e 4.827 alertas </p>
+                    <div class="w3c-images" aria-label="Evidências de validação W3C">
+                        <h4>Imagens da página de validação: W3C</h4>
+                        <h5 class="evidence-group-title">Validação CSS</h5>
+                        <div class="thumbnail-grid css-evidence-grid">
+                            <figure class="thumbnail-card">
+                                <a href="imagens/w3c_1.png" target="_blank" rel="noopener" aria-label="Abrir evidência de validação CSS — página 1 em tamanho real">
+                                    <img src="imagens/w3c_1.png" alt="Validação primeira página CSS - W3C">
+                                </a>
+                                <figcaption>CSS — página 1</figcaption>
+                            </figure>
+                            <figure class="thumbnail-card">
+                                <a href="imagens/w3c_2.png" target="_blank" rel="noopener" aria-label="Abrir evidência de validação CSS — página 2 em tamanho real">
+                                    <img src="imagens/w3c_2.png" alt="Validação segunda página CSS - W3C">
+                                </a>
+                                <figcaption>CSS — página 2</figcaption>
+                            </figure>
+                        </div>
+                        <h5 class="evidence-group-title">Validação HTML</h5>
+                        <div class="thumbnail-grid html-evidence-grid">
+                            <figure class="thumbnail-card">
+                                <a href="imagens/w3c_3.png" target="_blank" rel="noopener" aria-label="Abrir evidência de validação HTML — página 1 em tamanho real">
+                                    <img src="imagens/w3c_3.png" alt="Validação primeira página HTML - W3C">
+                                </a>
+                                <figcaption>HTML — página 1</figcaption>
+                            </figure>
+                            <figure class="thumbnail-card">
+                                <a href="imagens/w3c_4.png" target="_blank" rel="noopener" aria-label="Abrir evidência de validação HTML — página 2 em tamanho real">
+                                    <img src="imagens/w3c_4.png" alt="Validação segunda página HTML - W3C">
+                                </a>
+                                <figcaption>HTML — página 2</figcaption>
+                            </figure>
+                            <figure class="thumbnail-card">
+                                <a href="imagens/w3c_5.png" target="_blank" rel="noopener" aria-label="Abrir evidência de validação HTML — página 3 em tamanho real">
+                                    <img src="imagens/w3c_5.png" alt="Validação terceira página HTML - W3C">
+                                </a>
+                                <figcaption>HTML — página 3</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="overview-content" aria-labelledby="general-considerations-title">
+                <h2 id="general-considerations-title">Considerações gerais</h2>
+                <p class="subtitulo">Análise complementar: acessibilidade, performance, boas práticas e SEO</p>
+
+                <div class="overview-card">
+                    <h3>Acessibilidade e navegabilidade</h3>
+                    <ul class="finding-types">
+                        <li><strong>Contraste e legibilidade:</strong> as cores do cabeçalho apresentam bom contraste visual (fundo roxo com texto e ícones brancos), mas alguns botões secundários, como as abas "All Categories", usam cinza-claro sobre fundo branco, o que pode prejudicar a visibilidade de pessoas com baixa visão.</li>
+                        <li><strong>Leitores de tela:</strong> diversos elementos utilizam ícones sem rótulos ou textos alternativos adequados. As descrições de imagens e links como "Leia mais" também não informam o contexto do produto a que pertencem.</li>
+                        <li><strong>Navegação por teclado:</strong> o foco em elementos interativos e botões de ação precisa ser padronizado, pois ações importantes estão associadas apenas a ícones genéricos.</li>
+                    </ul>
+                </div>
+
+                <div class="overview-card">
+                    <h3>Performance</h3>
+                    <ul class="finding-types">
+                        <li><strong>Carregamento de imagens:</strong> o layout carrega vários cards de produtos simultaneamente. Recomenda-se aplicar carregamento tardio (lazy loading) às imagens fora da área visível para otimizar o carregamento inicial.</li>
+                        <li><strong>Recursos do layout:</strong> fontes de ícones pesadas e scripts sem minificação prévia, comuns em temas WordPress/WooCommerce, podem impactar o tempo de resposta e o carregamento nos dispositivos dos usuários.</li>
+                    </ul>
+                </div>
+
+                <div class="overview-card">
+                    <h3>Boas práticas de UI/UX e desenvolvimento</h3>
+                    <ul class="finding-types">
+                        <li><strong>Estrutura de conteúdo:</strong> há repetição de elementos de interface sem dados dinâmicos configurados, como a categoria "All Categories" exibida repetidamente no menu de abas.</li>
+                        <li><strong>Nomenclatura e dados de teste:</strong> o site expõe títulos e dados temporários, como "[66665692] Produto Lgc2", textos Lorem Ipsum nas notícias e avaliações com strings repetidas como "sssss", o que compromete a credibilidade e a experiência do usuário.</li>
+                        <li><strong>Consistência visual:</strong> o grid de produtos e o alinhamento dos cards estão bem organizados e seguem a estrutura padrão de e-commerce.</li>
+                    </ul>
+                </div>
+
+                <div class="overview-card">
+                    <h3>SEO (otimização para mecanismos de busca)</h3>
+                    <ul class="finding-types">
+                        <li><strong>Títulos e descrições de produtos:</strong> nomes genéricos ou técnicos, como "Produto Ebac" ou "[73395368] Produto Lgc2", dificultam a indexação por termos relevantes do mercado.</li>
+                        <li><strong>Hierarquia de cabeçalhos:</strong> embora haja separação entre seções como produtos sugeridos, produtos em destaque e notícias recentes, faltam palavras-chave estratégicas nos títulos para melhorar o ranqueamento na categoria de vendas.</li>
+                        <li><strong>URLs e links:</strong> os links de produtos utilizam parâmetros simples em vez de URLs amigáveis (slugs com o nome do produto), o que pode prejudicar o ranqueamento orgânico.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <report-footer></report-footer>
+    </body>
+</html>
